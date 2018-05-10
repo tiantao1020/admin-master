@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>Monster Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/plugins/prism/prism.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="../main/css/style.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="../main/css/colors/blue.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header logo-center card-no-border fix-sidebar">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /> </svg>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-toggleable-sm navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         <img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                         <!-- Light Logo text -->    
+                         <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto mt-md-0 ">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down text-muted waves-effect waves-dark" href="javascript:void(0)"><i class="icon-arrow-left-circle"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- End Messages -->
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap">DOCUMENTATION</li>
+                        <li><a href="#intro" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Intro / Installation</span></a></li>
+                        <li><a href="#template" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Template</span></a></li>
+                        <li><a href="#begin" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Begining</span></a></li>
+                        <li><a href="#logo" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Logo</span></a></li>
+                        <li><a href="#lft" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Left Sidebar</span></a></li>
+                        <li><a href="#setting" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Settings </span></a></li>
+                        <li><a href="#fonts" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Font</span></a></li>
+                        <li><a href="#css" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">scss / css</span></a></li>
+                        <li><a href="#colors" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Color Variations</span></a></li>
+                        <li><a href="#option" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Layout options</span></a></li>
+                        <li><a href="#support" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Supoort</span></a></li>
+                        <li><a href="#credits" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Credits</span></a></li>
+                        <li><a href="#psd" aria-expanded="false"><i class="fa fa-circle-o"></i><span class="hide-menu">Free PSD File</span></a></li>
+                        
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <div class="sidebar-footer">
+                <!-- item--><a href="" class="link" data-toggle="tooltip" title="Settings"><i class="ti-settings"></i></a>
+                <!-- item--><a href="" class="link" data-toggle="tooltip" title="Email"><i class="mdi mdi-gmail"></i></a>
+                <!-- item--><a href="" class="link" data-toggle="tooltip" title="Logout"><i class="mdi mdi-power"></i></a> </div>
+            <!-- End Bottom points-->
+        </aside>
+        <!-- ============================================================== -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+                <div class="fix-width">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- card -->
+                            <div class="card" id="intro">
+                                <div class="card-block">
+                                    <h3>1. Introduction</h3>
+                                    <p>
+                                        <br/>Monster Admin is a popular open source WebApp template for admin dashboards and control panels. Monster Admin is fully responsive HTML template, which is based on the CSS framework Bootstrap 4. It utilizes all of the Bootstrap components in its design and re-styles many commonly used plugins to create a consistent design that can be used as a user interface for backend applications. Monter Admin is based on a modular design, which allows it to be easily customized and built upon. This documentation will guide you through installing the template and exploring the various components that are bundled with the template.</p>
+                                    <p>
+                                        <br/>We put a lot of love and effort to make Monster Admin a useful template for everyone and now It comes with 7 unique admin templates. We are keen to release continuous long term updates and lots of new features will be coming soon in the future releases. Once you purchased Monster Admin, you will be entitled to free download of all future updates for the same license.</p> <b><br/>
+                                        Author: <a href="https://wrappixel.com" target="_blank">Wrappixel / Nirav Joshi</a><br/>
+                                        Unical Resources: <a href="http://bit.ly/247Q2jH" target="_blank">Download</a><br/>
+                                        Contact: <a href="mailto:info@wrappixel.com"> info@wrappixel.com / niravjoshi87@gmail.com</a><br/>
+                                        Follow: <a href="https://twitter.com/wrappixel" target="_blank">twitter.com/wrappixel</a><br/>
+                                        Like: <a href="https://facebook.com/wrappixel" target="_blank">facebook.com/wrappixel</a><br/>
+                                        website: <a href="https://wrappixel.com" target="_blank">https://wrappixel.com</a><br/>
+                                        
+                                    </b>
+                                    <hr>
+                                     <div class="alert alert-warning">NOTE: A single license can be used only for one domain or client. Each use of the template requires a separate license. We hope you will follow the rules as it will help us to continue supporting our template and providing a free future updates.</div>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card">
+                                <div class="card-block">
+                                    <h3>1.2 Installation Guide</h3>
+                                    <p>
+                                        This is the simple static HTML template so no need any headech to install it.
+
+                                        <br><br>Just simple steps to follow: 
+                                        <br><br><i class="fa fa-folder text-warning"></i> <strong>Main(demo folder)</strong> + <i class="fa fa-folder text-warning"></i> <strong>assets (folder)</strong> <strong>= Enjoy your demo.</strong></p>
+                                    <div class="alert alert-info"> Note: we recomonded you to please make your one own css file &amp; one js files and add that in your page, so whenever the update of monsteradmin comes it does not affect your code. </div>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="template">
+                                <div class="card-block">
+                                    <h3>2. Template Structure</h3>
+                                    <p>
+                                        <br/> All template files have fixed structure consisting of <code>header</code>, <code>mega menu</code>, <code>top menu</code>, <code>user profile</code>, <code>sidebar menu</code>, <code>right sidebar</code>, <code>content</code> and <code>footer</code> as shown below: </p>
+                                    <p>
+                                        <img src="../assets/images/document/template-strucutre.jpg" alt="template" class="img-responsive" />
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="begin">
+                                <div class="card-block">
+                                    <h3>3. Beginning of Page</h3>
+                                    <p>Below code is used at the beginning of all HTML pages to detect Internet Explorer browser version and set a spesific class applied to Internet Explorer versions.</p>
+                                    <pre class="language-markup">
+    <code  class="language-markup">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;!-- Tell the browser to be responsive to screen width --&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;meta name="description" content=""&gt;
+    &lt;meta name="author" content=""&gt;
+    &lt;!-- Favicon icon --&gt;
+    &lt;link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png"&gt;
+    &lt;title&gt;Monster Admin Template - Responsive web app kit dashboard&lt;/title&gt;
+    &lt;!-- Bootstrap Core CSS --&gt;
+    &lt;link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"&gt;
+    &lt;link href="../assets/plugins/prism/prism.css" rel="stylesheet"&gt;
+    &lt;!-- Custom CSS --&gt;
+    &lt;link href="../main/css/style.css" rel="stylesheet"&gt;
+    &lt;!-- You can change the theme colors from here --&gt;
+    &lt;link href="../main/css/colors/blue.css" id="theme" rel="stylesheet"&gt;
+    &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+    &lt;!-- WARNING: Respond.js doesn't work if you view the page via file:// --&gt;
+    &lt;!--[if lt IE 9]&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"&gt;&lt;/script&gt;
+    &lt;script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;/head&gt;</code>
+</pre>
+
+                                    
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="loader">
+                                <div class="card-block">
+                                    <h3>4. Preloader (spinner)</h3>
+                                    <p>This is for the loader when page load</p>
+                                    <pre class="language-markup">
+                                        <code class="language-markup">
+    &lt;!-- ============================================================== --&gt;
+    &lt;!-- Preloader - style you can find in spinners.css --&gt;
+    &lt;!-- ============================================================== --&gt;
+    &lt;div class="preloader"&gt;
+        &lt;svg class="circular" viewBox="25 25 50 50"&gt;
+            &lt;circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /&gt; 
+        &lt;/svg&gt;
+    &lt;/div&gt;
+    &lt;!-- ============================================================== --&gt;
+    &lt;!-- Preloader end --&gt;
+    &lt;!-- ============================================================== --&gt;                                            
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="logo">
+                                <div class="card-block">
+                                    <h3>5. Logo</h3>
+                                    <p>This is for Brand identity means logo - we have separated logo icon and logo text both dark and light version you can upload </p>
+                                    <pre class="language-markup">
+                                        <code class="language-markup">
+&lt;!-- ============================================================== --&gt;
+&lt;!-- Logo --&gt;
+&lt;!-- ============================================================== --&gt;
+&lt;div class="navbar-header"&gt;
+    &lt;a class="navbar-brand" href="index.html"&gt;
+        &lt;!-- Logo icon --&gt;
+        &lt;b&gt;
+            &lt;!--You can put here icon as well // &lt;i class="wi wi-sunset"&gt;&lt;/i&gt; //--&gt;
+            &lt;!-- Dark Logo icon --&gt;
+            &lt;img src="../assets/images/logo-icon.png" alt="homepage" class="dark-logo" /&gt;
+            &lt;!-- Light Logo icon --&gt;
+            &lt;img src="../assets/images/logo-light-icon.png" alt="homepage" class="light-logo" /&gt;
+        &lt;/b&gt;
+        &lt;!--End Logo icon --&gt;
+        &lt;!-- Logo text --&gt;&lt;span&gt;
+         &lt;!-- dark Logo text --&gt;
+         &lt;img src="../assets/images/logo-text.png" alt="homepage" class="dark-logo" /&gt;
+         &lt;!-- Light Logo text --&gt;    
+         &lt;img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" /&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/div&gt;
+&lt;!-- ============================================================== --&gt;
+&lt;!-- End Logo --&gt;
+&lt;!-- ============================================================== --&gt;                                        
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="lft">
+                                <div class="card-block">
+                                    <h3>6. Left Sidebar</h3>
+                                    <p>We have created leftsidebar with the following code. </p>
+                                    <div class="row">
+                                        <div class="col-md-4"><br/><img src="../assets/images/document/sidebar.jpg" alt="sidebar"/></div>
+                                        <div class="col-md-8">
+                                        <pre class="language-markup">
+                                            <code class="language-markup">
+&lt;!-- ============================================================== --&gt;
+&lt;!-- Left Sidebar - style you can find in sidebar.scss  --&gt;
+&lt;!-- ============================================================== --&gt;
+&lt;aside class="left-sidebar"&gt;
+    &lt;!-- Sidebar scroll--&gt;
+    &lt;div class="scroll-sidebar"&gt;
+        &lt;!-- Sidebar navigation--&gt;
+        &lt;nav class="sidebar-nav"&gt;
+            &lt;ul id="sidebarnav"&gt;
+                &lt;li class="nav-small-cap"&gt;DOCUMENTATION&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#Intro" aria-expanded="false"&gt;&lt;i class="mdi mdi-file"&gt;&lt;/i&gt;&lt;span class="hide-menu"&gt;Introduction&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+        &lt;!-- End Sidebar navigation --&gt;
+    &lt;/div&gt;
+    &lt;!-- End Sidebar scroll--&gt;
+    &lt;!-- Bottom points--&gt;
+    &lt;div class="sidebar-footer"&gt;
+        &lt;!-- item--&gt;&lt;a href="" class="link" data-toggle="tooltip" title="Settings"&gt;&lt;i class="ti-settings"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;!-- item--&gt;&lt;a href="" class="link" data-toggle="tooltip" title="Email"&gt;&lt;i class="mdi mdi-gmail"&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;!-- item--&gt;&lt;a href="" class="link" data-toggle="tooltip" title="Logout"&gt;&lt;i class="mdi mdi-power"&gt;&lt;/i&gt;&lt;/a&gt; &lt;/div&gt;
+    &lt;!-- End Bottom points--&gt;
+&lt;/aside&gt;
+&lt;!-- ============================================================== --&gt;
+&lt;!-- End Left Sidebar - style you can find in sidebar.scss  --&gt;
+&lt;!-- ============================================================== --&gt;
+                                        </code>
+                                    </pre>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="page">
+                                <div class="card-block">
+                                    <h3>7. Page content, right sidebar and Footer</h3>
+                                    <p>Below is the code for the page content wrapper, you can start your content here </p>
+                                    <pre class="language-markup" style="height:500px;">
+                                        <code class="language-markup">
+        &lt;!-- ============================================================== --&gt;
+        &lt;!-- Page wrapper  --&gt;
+        &lt;!-- ============================================================== --&gt;
+        &lt;div class="page-wrapper"&gt;
+            &lt;!-- ============================================================== --&gt;
+            &lt;!-- Container fluid  --&gt;
+            &lt;!-- ============================================================== --&gt;
+            &lt;div class="container-fluid"&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- Bread crumb and right sidebar toggle --&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;div class="row page-titles"&gt;
+                    &lt;div class="col-md-6 col-8 align-self-center"&gt;
+                        &lt;h3 class="text-themecolor m-b-0 m-t-0"&gt;Dashboard&lt;/h3&gt;
+                        &lt;ol class="breadcrumb"&gt;
+                            &lt;li class="breadcrumb-item"&gt;&lt;a href="javascript:void(0)"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                            &lt;li class="breadcrumb-item active"&gt;Dashboard&lt;/li&gt;
+                        &lt;/ol&gt;
+                    &lt;/div&gt;
+                    &lt;div class="col-md-6 col-4 align-self-center"&gt;
+                        &lt;button class="right-side-toggle waves-effect waves-light btn-info btn-circle btn-sm pull-right m-l-10"&gt;&lt;i class="ti-settings text-white"&gt;&lt;/i&gt;&lt;/button&gt;
+                        &lt;button class="btn pull-right hidden-sm-down btn-success"&gt;&lt;i class="mdi mdi-plus-circle"&gt;&lt;/i&gt; Create&lt;/button&gt;
+                        &lt;div class="dropdown pull-right m-r-10 hidden-sm-down"&gt;
+                            &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"&gt;
+                                January 2017
+                            &lt;/button&gt;
+                            &lt;div class="dropdown-menu" aria-labelledby="dropdownMenuButton"&gt;
+                                &lt;a class="dropdown-item" href="#"&gt;February 2017&lt;/a&gt;
+                                &lt;a class="dropdown-item" href="#"&gt;March 2017&lt;/a&gt;
+                                &lt;a class="dropdown-item" href="#"&gt;April 2017&lt;/a&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- End Bread crumb and right sidebar toggle --&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- Start Page Content --&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="col-12"&gt;
+                        &lt;div class="card"&gt;
+                            &lt;div class="card-block"&gt;
+                                This is some text within a card block.
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- End PAge Content --&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- Right sidebar --&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- .right-sidebar --&gt;
+                &lt;div class="right-sidebar"&gt;
+                    &lt;div class="slimscrollright"&gt;
+                        &lt;div class="rpanel-title"&gt; Service Panel &lt;span&gt;&lt;i class="ti-close right-side-toggle"&gt;&lt;/i&gt;&lt;/span&gt; &lt;/div&gt;
+                        &lt;div class="r-panel-body"&gt;
+                            &lt;ul id="themecolors" class="m-t-20"&gt;
+                                &lt;li&gt;&lt;b&gt;With Light sidebar&lt;/b&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="default" class="default-theme"&gt;1&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="green" class="green-theme"&gt;2&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="red" class="red-theme"&gt;3&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="blue" class="blue-theme working"&gt;4&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="purple" class="purple-theme"&gt;5&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="megna" class="megna-theme"&gt;6&lt;/a&gt;&lt;/li&gt;
+                                &lt;li class="d-block m-t-30"&gt;&lt;b&gt;With Dark sidebar&lt;/b&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="default-dark" class="default-dark-theme"&gt;7&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="green-dark" class="green-dark-theme"&gt;8&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="red-dark" class="red-dark-theme"&gt;9&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="blue-dark" class="blue-dark-theme"&gt;10&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="purple-dark" class="purple-dark-theme"&gt;11&lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a href="javascript:void(0)" data-theme="megna-dark" class="megna-dark-theme "&gt;12&lt;/a&gt;&lt;/li&gt;
+                            &lt;/ul&gt;
+                            &lt;ul class="m-t-20 chatonline"&gt;
+                                &lt;li&gt;&lt;b&gt;Chat option&lt;/b&gt;&lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/1.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;Varun Dhavan &lt;small class="text-success"&gt;online&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/2.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;Genelia Deshmukh &lt;small class="text-warning"&gt;Away&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/3.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;Ritesh Deshmukh &lt;small class="text-danger"&gt;Busy&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/4.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;Arijit Sinh &lt;small class="text-muted"&gt;Offline&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/5.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;Govinda Star &lt;small class="text-success"&gt;online&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/6.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;John Abraham&lt;small class="text-success"&gt;online&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/7.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;Hritik Roshan&lt;small class="text-success"&gt;online&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li&gt;
+                                    &lt;a href="javascript:void(0)"&gt;&lt;img src="../assets/images/users/8.jpg" alt="user-img" class="img-circle"&gt; &lt;span&gt;Pwandeep rajan &lt;small class="text-success"&gt;online&lt;/small&gt;&lt;/span&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                            &lt;/ul&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;!-- ============================================================== --&gt;
+                &lt;!-- End Right sidebar --&gt;
+                &lt;!-- ============================================================== --&gt;
+            &lt;/div&gt;
+            &lt;!-- ============================================================== --&gt;
+            &lt;!-- End Container fluid  --&gt;
+            &lt;!-- ============================================================== --&gt;
+            &lt;!-- ============================================================== --&gt;
+            &lt;!-- footer --&gt;
+            &lt;!-- ============================================================== --&gt;
+            &lt;footer class="footer"&gt;
+                © 2017 Monster Admin by wrappixel.com
+            &lt;/footer&gt;
+            &lt;!-- ============================================================== --&gt;
+            &lt;!-- End footer --&gt;
+            &lt;!-- ============================================================== --&gt;
+        &lt;/div&gt;
+        &lt;!-- ============================================================== --&gt;
+        &lt;!-- End Page wrapper  --&gt;
+        &lt;!-- ============================================================== --&gt;                                        
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="setting">
+                                <div class="card-block">
+                                    <h3>8. Settings in custom js</h3>
+                                    <p>Below js code is used for theme setting , fix header , toggle sidebar and right sidebar open close.</p>
+                                    <pre class="language-javascript">
+<code class="language-javascript">// topbar stickey on scroll for fix header
+    $(".fix-header .topbar").stick_in_parent({ });
+    
+// ============================================================== 
+// Theme options for sidebar toggler and logo text show hide
+// ==============================================================     
+$(".sidebartoggler").on('click', function () {
+    if ($("body").hasClass("mini-sidebar")) {
+        $("body").trigger("resize");
+        $(".scroll-sidebar, .slimScrollDiv").css("overflow", "hidden").parent().css("overflow", "visible");
+        $("body").removeClass("mini-sidebar");
+        $('.navbar-brand span').show();
+        $(".sidebartoggler i").addClass("ti-menu");
+    }
+    else {
+        $("body").trigger("resize");
+        $(".scroll-sidebar, .slimScrollDiv").css("overflow-x", "visible").parent().css("overflow", "visible");
+        $("body").addClass("mini-sidebar");
+        $('.navbar-brand span').hide();
+        $(".sidebartoggler i").removeClass("ti-menu");
+    }
+});
+
+// ============================================================== 
+// This is for Right sidebar options
+// ============================================================== 
+$(".right-side-toggle").click(function () {
+    $(".right-sidebar").slideDown(50);
+    $(".right-sidebar").toggleClass("shw-rside");
+
+});
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="sidebar">
+                                <div class="card-block">
+                                    <h3>9. Sidebar Navigation for window resize</h3>
+                                    <p>Below js code is used for sidebar open close, changing view in all device code and toggle sidebar.</p>
+                                    <pre class="language-javascript">
+<code class="language-javascript">
+// ============================================================== 
+// This is for the top header part and sidebar part
+// ==============================================================  
+var set = function () {
+        var width = (window.innerWidth > 0) ? window.innerWidth : this.screen.width;
+        var topOffset = 70;
+        if (width &lt; 1170) {
+            $("body").addClass("mini-sidebar");
+            $('.navbar-brand span').hide();
+            $(".scroll-sidebar, .slimScrollDiv").css("overflow-x", "visible").parent().css("overflow", "visible");
+            $(".sidebartoggler i").addClass("ti-menu");
+        }
+        else {
+            $("body").removeClass("mini-sidebar");
+            $('.navbar-brand span').show();
+            $(".sidebartoggler i").removeClass("ti-menu");
+        }
+
+        var height = ((window.innerHeight > 0) ? window.innerHeight : this.screen.height) - 1;
+        height = height - topOffset;
+        if (height &lt; 1) height = 1;
+        if (height &gt; topOffset) {
+            $(".page-wrapper").css("min-height", (height) + "px");
+        }
+
+};
+$(window).ready(set);
+$(window).on("resize", set);
+});
+</code>
+</pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="fonts">
+                                <div class="card-block">
+                                    <h3>10. Font Family</h3>
+                                    <p>We have used google fonts for the template you can change whatever font you wish</p>
+                                    <pre class="language-css">
+                                        <code class="language-css">
+// Variables
+@import 'https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900';
+
+$bodyfont:'Rubik', sans-serif;
+$headingfont:'Rubik', sans-serif;
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="css">
+                                <div class="card-block">
+                                    <h3>11. scss & css</h3>
+                                    <p>Our Template is based on scss and we import all the file into style.css you can simply edit any scss and compile it</p>
+                                    <pre class="language-css">
+                                        <code class="language-css">
+@import 'variable'; (All the predefine varialbes colors and etc)
+@import 'app'; ( All the Common scss contain here )
+@import 'pages'; (All pages scss contain here )
+@import 'sidebar'; ( Left sidebar scss contain here )
+@import '../scss/icons/font-awesome/css/font-awesome.min.css'; ( This is for the icons )
+@import '../scss/icons/simple-line-icons/css/simple-line-icons.css';( This is for the icons )
+@import '../scss/icons/weather-icons/css/weather-icons.min.css';( This is for the icons )
+@import '../scss/icons/linea-icons/linea.css';( This is for the icons )
+@import '../scss/icons/themify-icons/themify-icons.css'; ( This is for the icons )
+@import '../scss/icons/flag-icon-css/flag-icon.min.css';( This is for the icons )
+@import "../scss/icons/material-design-iconic-font/css/materialdesignicons.min.css";( This is for the icons )
+@import 'widgets';( This is for the all widgets of the template )
+@import 'grid'; ( This is for the extra grid of xlg )
+@import 'responsive'; ( This is for the responsive scss )
+@import '../css/spinners.css'; ( This is for the Loader )
+@import '../css/animate.css';( This is for the Animation )</code></pre>
+                                    <div class="alert alert-info"> Note: we recomonded you to please make your one own css and one own js files and add that in your page, so whenever the update of monsteradmin comes it does not affect your code. </div>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="hori">
+                                <div class="card-block">
+                                    <h3>12. Horizontal menu / Navigation</h3>
+                                    <p>We have already Created Horizontal Demo for the template</p>
+                                    <a href="../horizontal/index.html" class="btn btn-rounded btn-info"> Check the live Preview</a>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="kit">
+                                <div class="card-block">
+                                    <h3>12. Starter kit page ( Create new page )</h3>
+                                    <p>You can start your project with starter-page.html , in that page all the unnecessary script and html code is removed, so you can start with the new page.</p>
+                                    <a href="../horizontal/starter-kit.html" class="btn btn-rounded btn-warning"> Check the live Preview</a>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="helper">
+                                <div class="card-block">
+                                    <h3>13. Helper Classes</h3>
+                                    <p>we make classes to help you in your developement process, and make it fast. checkout the below link for the helper classes</p>
+                                    <a href="../horizontal/pages-utility-classes.html" class="btn btn-rounded btn-success"> Check the live Preview</a>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="folder">
+                                <div class="card-block">
+                                    <h3>14. Folder Structure</h3>
+                                    <p>we follow simple structure for the template</p>
+                                    <pre class="highlight">
+                                        <code>
+                                            HTML
+                                              ├── 
+                                              │   └── Monster Admin HTML/
+                                              │       └── Css
+                                              │            └── All Css files
+                                              │       └── Js
+                                              │            └── All Js files
+                                              │       └── scss
+                                              │            └── All scss files
+                                              │       └── All Html Pages
+                                              │
+                                              │   └── Assets/
+                                              │       └── Plugins
+                                              │            └── All Required plugins files
+                                              │       └── Images
+                                              │             └── All Theme Images
+                                              └── 
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="colors">
+                                <div class="card-block">
+                                    <h3>15. Color Variations</h3>
+                                    <p>We have made Total 6 Color variation with light and dark sidebar </p>
+                                    <img src="../assets/images/document/colors.jpg" alt="colors" class="img-responsive" />
+                                    <pre class="language-css">
+                                        <code class="language-css">
+&lt;!-- You can change the theme colors, just put this css to head --&gt; 
+&lt;link href="css/colors/default.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/green.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/red.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/blue.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/purple.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/megna.css" id="theme" rel="stylesheet"&gt;
+
+&lt;!-- For the dark sidebar --&gt; 
+&lt;link href="css/colors/default-dark.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/green-dark.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/red-dark.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/blue-dark.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/purple-dark.css" id="theme" rel="stylesheet"&gt; 
+
+&lt;link href="css/colors/megna-dark.css" id="theme" rel="stylesheet"&gt;
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="option">
+                                <div class="card-block">
+                                    <h3>16. Layout options </h3>
+                                    <p>We have provided many layout options you can choose whatever you like</p>
+                                    
+                                        <b>For Example</b>
+                                        <table class="table table-bordered m-t-20">
+                                            <tr>
+                                                <td>Fix header</td>
+                                                <td>Simply Put class <code>.fix-header</code> to body tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fix Sidebar</td>
+                                                <td>Simply Put class <code>.fix-sidebar</code> to body tag</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Logo in Center</td>
+                                                <td>Simply Put class <code>.logo-center</code> to body tag</td>
+                                            </tr>
+                                            
+                                        </table>
+                                   
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="scss">
+                                <div class="card-block">
+                                    <h3>17. scss / css </h3>
+                                    <p>We diffentiate scss file for the pages and widgets and compile it with style.css</p>
+                                    
+                                        <b>Scss files</b>
+                                        <table class="table table-bordered m-t-20">
+                                            <tr>
+                                                <td>variable.scss</td>
+                                                <td>All the predefine varialbes colors and etc</td>
+                                            </tr>
+                                            <tr>
+                                                <td>app.scss</td>
+                                                <td>All the Common scss contain here</td>
+                                            </tr>
+                                            <tr>
+                                                <td>pages.scss</td>
+                                                <td>All the Pages scss contain here</td>
+                                            </tr>
+                                            <tr>
+                                                <td>sidebar.scss</td>
+                                                <td>Left sidebar scss contain here</td>
+                                            </tr>
+                                            <tr>
+                                                <td>widgets.scss</td>
+                                                <td>This is for the all widgets of the template </td>
+                                            </tr>
+                                            <tr>
+                                                <td>responsive.scss</td>
+                                                <td>This is for the responsive template </td>
+                                            </tr>
+                                            
+                                        </table>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="js">
+                                <div class="card-block">
+                                    <h3>17. Js </h3>
+                                    <p>We diffentiate scss file for the pages and widgets and compile it with style.css</p>
+                                    
+                                        <b>Scss files</b>
+                                        <table class="table table-bordered m-0">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 30%;">File</th>
+                                                    <th>Description</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><code>jquery.js</code>, <code>tether.js, bootstrap.js</code>, <code>jquery.slimscroll</code> </td>
+                                                    <td> These files are used at main files of the theme. and nicescroll is for sidebarscroll </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>custom.js</code> </td>
+                                                    <td> This is a main function js file. it contain sidebar and other basic js</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>sidebar.js</code> </td>
+                                                    <td> This file contains sidebarnavigation js</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><code>wave.js</code> </td>
+                                                    <td> This is for wave effects on buttons and other elements</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                   
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="support">
+                                <div class="card-block">
+                                    <h3>19. Free support</h3>
+                                    <p>If you have any type of query or support needed, feel free to contact us by mail or message to <a href="mailto:info@wrappixel.com">info@wrappixel.com</a> or niravjoshi87@gmail.com</p>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="credits">
+                                <div class="card-block">
+                                    <h3>18. Credits to the third party plugins</h3>
+                                    <ul class="common">
+                                        <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+                                        <li><a href="https://jquery.com/">Jquery</a></li>
+                                        <li><a href="http://fortawesome.github.io/Font-Awesome/">Font-Awesome</a></li>
+                                        <li><a href="http://tristanedwards.me/sweetalert">Sweet-Alert</a></li>
+                                        <li><a href="http://dbushell.com/">Nestable</a></li>
+                                        <li><a href="http://areaaperta.com/nicescroll/">Nicescroll</a></li>
+                                        <li><a href="http://arshaw.com/fullcalendar/">Full Calendar</a></li>
+                                        <li><a href="http://jqueryvalidation.org/">Form Validator</a></li>
+                                        <li><a href="http://jdewit.github.com/bootstrap-timepicker">Bootstrap-timepicker</a></li>
+                                        <li><a href="http://www.eyecon.ro/bootstrap-colorpicker">Bootstrap Colorpicker</a></li>
+                                        <li><a href="http://loudev.com/">Multi-select</a></li>
+                                        <li><a href="https://select2.github.io/">Select2</a></li>
+                                        <li><a href="https://github.com/xing/wysihtml5">Wysihtml5</a></li>
+                                        <li><a href="https://www.datatables.net">Datatables</a></li>
+                                        <li><a href="http://morrisjs.github.io/morris.js/">Morris</a></li>
+                                        <li><a href="http://chartjs.org/">Chartjs</a></li>
+                                        <li><a href="http://omnipotent.net/jquery.sparkline/">Sparkline</a> </li>
+                                        <li><a href="https://hpneo.github.io/gmaps/">Gmaps</a></li>
+                                        <li><a href="http://jqvmap.com">Vector Maps</a></li>
+                                        <li><a href="https://pexels.com/">Pexels (images)</a></li>
+                                        <li><a href="http://www.flotcharts.org/">Flot-charts</a></li>
+                                        <li><a href="https://github.com/dixso/custombox"> Custombox</a></li>
+                                        <li><a href="http://owlgraphic.com/owlcarousel/"> Owl carousel</a></li>
+                                        <li><a href="https://themify.me/themify-icons">Themify-icons</a></li>
+                                        <li><a href="https://erikflowers.github.io/weather-icons/"> Weather icons</a></li>
+                                        <li><a href="https://github.com/abpetkov/switchery"> Switchery</a></li>
+                                        <li><a href="https://github.com/silviomoreto/bootstrap-select"> Bootstrap select</a></li>
+                                        <li><a href="http://www.tinymce.com/">Wysiwig Editor</a></li>
+                                        <li><a href="https://github.com/wenzhixin/bootstrap-table-examples"> Bootstrap tables</a></li>
+                                        <li><a href="https://gionkunz.github.io/chartist-js/"> Chartist chart</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            
+                            <!-- card -->
+                            <div class="card" id="psd">
+                                <div class="card-block">
+                                    <h3>20. Free PSD File</h3>
+                                    <p>Mail us on <a href="mailto:info@wrappixel.com">info@wrappixel.com</a> for get the psd file. we will send you all the psd for free. </p>
+                                </div>
+                            </div>
+                            <!-- card -->
+                            <!-- card -->
+                            <div class="card" id="thanks">
+                                <div class="card-block">
+                                    <div class="display-5 text-center text-success">
+                                        Thank you<br>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card -->
+                        </div>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End PAge Content -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer"> © 2017 Monster Admin by wrappixel.com </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="../assets/plugins/bootstrap/js/tether.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="../main/js/jquery.slimscroll.js"></script>
+    <!--Wave Effects -->
+    <script src="../main/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="../main/js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="../main/js/custom.min.js"></script>
+    <script src="../assets/plugins/prism/prism.js"></script>
+    <script>
+    // This is for the sticky sidebar    
+    $("#sidebarnav").stick_in_parent({
+        offset_top: 100
+    });
+    $('#sidebarnav a').click(function() {
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top - 100
+        }, 500);
+        return false;
+    });
+    // This is auto select left sidebar
+    // Cache selectors
+    // Cache selectors
+    var lastId,
+        topMenu = $("#sidebarnav"),
+        topMenuHeight = topMenu.outerHeight(),
+        // All list items
+        menuItems = topMenu.find("a"),
+        // Anchors corresponding to menu items
+        scrollItems = menuItems.map(function() {
+            var item = $($(this).attr("href"));
+            if (item.length) {
+                return item;
+            }
+        });
+
+    // Bind click handler to menu items
+
+
+    // Bind to scroll
+    $(window).scroll(function() {
+        // Get container scroll position
+        var fromTop = $(this).scrollTop() + topMenuHeight - 250;
+
+        // Get id of current scroll item
+        var cur = scrollItems.map(function() {
+            if ($(this).offset().top < fromTop)
+                return this;
+        });
+        // Get the id of the current element
+        cur = cur[cur.length - 1];
+        var id = cur && cur.length ? cur[0].id : "";
+
+        if (lastId !== id) {
+            lastId = id;
+            // Set/remove active class
+            menuItems
+                .removeClass("active")
+                .filter("[href='#" + id + "']").addClass("active");
+        }
+    });
+    </script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+</html>
